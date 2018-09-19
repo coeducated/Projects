@@ -1,5 +1,5 @@
 # Schoolwork
-Various Assignments
+Various Projects
 -------------------
 Algorithm Design & Analysis - Spring 2017
 
