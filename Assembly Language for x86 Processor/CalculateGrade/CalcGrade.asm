@@ -33,8 +33,6 @@ main ENDP
 GradeCalc PROC
 ;
 ; Calculate grade by comparing values of eax registers
-; Recieves Nothing
-; Returns Nothing
 ;
 ; ------------------------------------------------ -
 .IF(eax <= 100 && eax >= 0)
