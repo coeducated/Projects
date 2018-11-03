@@ -28,8 +28,7 @@ InputTheString PROC
 ;
 ; Prompts user for a plaintext string.Saves the string
 ; and its length.
-; Receives: nothing
-; Returns: nothing
+; 
 ; ---------------------------------------------------- -
 pushad; save 32 - bit registers
 mov edx, OFFSET sPrompt; display a prompt
@@ -46,8 +45,7 @@ InputTheString ENDP
 DisplayMessage PROC
 ;
 ; Displays the encrypted or decrypted message.
-; Receives: EDX points to the message
-; Returns: nothing
+; 
 ; ---------------------------------------------------- -
 pushad
 call WriteString
@@ -63,8 +61,7 @@ TranslateBuffer PROC
 ;
 ; Translates the string by exclusive - ORing each
 ; byte with the encryption key byte.
-; Receives: nothing
-; Returns: nothing
+; 
 ; ---------------------------------------------------- -
 pushad
 mov ecx, bufSize; loop counter
