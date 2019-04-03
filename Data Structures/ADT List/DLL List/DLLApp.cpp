@@ -12,7 +12,6 @@ int main()
 	List<char> DoublyLinkedList2 = List<char>();
 	// Create DLL of Strings
 	List<std::string> DoublyLinkedList3 = List<std::string>();
-	// Create Stack of Integers
 
 
 	// Add Integers
@@ -22,7 +21,6 @@ int main()
 	DoublyLinkedList.InsertTail(44);
 	DoublyLinkedList.InsertHead(100);
 
-	// Add Integers onto the stack
 
 
 
