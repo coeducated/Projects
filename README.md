@@ -16,6 +16,6 @@ Assembly Language for x86 Processors - Fall 2018
 Data Structures - Spring 2019
 
 
-
+Discrete Struct/math - Fall 2020
 
 
